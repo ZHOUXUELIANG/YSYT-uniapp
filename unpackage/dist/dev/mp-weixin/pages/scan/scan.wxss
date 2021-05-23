@@ -1,0 +1,9 @@
+
+.vvv {
+	width: 99%;
+	border: 2px dashed #eeeeee;
+	height: 300rpx;
+	margin: 30rpx 0 0 0;
+	height: auto;
+}
+

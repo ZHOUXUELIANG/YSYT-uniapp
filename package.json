@@ -1,0 +1,12 @@
+{
+    "id": "search-page",
+    "name": "search-page",
+    "version": "v0.0.2",
+    "description": "可以直接使用的搜索页面，支持默认输入内容",
+    "keywords": [
+        "search",
+        "search-page",
+        "搜索",
+        "热门搜索"
+    ]
+}

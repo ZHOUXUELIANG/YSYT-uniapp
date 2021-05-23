@@ -1,0 +1,65 @@
+/* 书架头部 start */
+.bookswrap {
+    display: flex;
+    flex-direction: column;
+    padding: 30upx;
+}
+
+.opbook {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px 0px;
+}
+
+.lefttext {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.righttext {
+    font-size: 14px;
+}
+
+/* 书架头部 end */
+/* 书架主体 start */
+.mybookwrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.mybookitem {
+    display: flex;
+    flex-direction: column;
+    width: 210upx;
+    padding: 0 10upx;
+    margin-bottom: 5px;
+}
+
+.booktitle {
+    font-size: 12px;
+    width: 200upx;
+    margin: 3px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.bookimg {
+    width: 100px;
+    height: 125px;
+    border-radius: 5rpx;
+}
+
+.remove {
+    text-align: center;
+}
+
+/* 书架主体 end */
+
+
+
+
+	

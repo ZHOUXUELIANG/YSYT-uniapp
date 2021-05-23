@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "宜扫易听",
+  "usingComponents": {
+    "u-search": "/node-modules/uview-ui/components/u-search/u-search",
+    "u-swiper": "/node-modules/uview-ui/components/u-swiper/u-swiper"
+  }
+}

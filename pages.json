@@ -1,0 +1,153 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#FFDA33"
+			}
+		},
+		{
+			"path": "pages/bookcase/bookcase",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+
+
+			}
+		},
+		{
+			"path": "pages/scan/scan",
+			"style": {
+				"navigationBarTitleText": "扫一扫",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+
+			}
+		},
+		{
+			"path": "pages/myself/myself",
+			"style": {
+				"navigationBarTitleText": "我的详情"
+				/* "enablePullDownRefresh": true */
+			}
+		},
+		{
+			"path": "pages/myself/myself_info",
+			"style": {
+				"navigationBarTitleText": "个人信息"
+				// "enablePullDownRefresh": false
+			}
+		},
+
+
+
+		{
+			"path": "pages/index/read/read", //主页跳转到图书详情页，再到阅读页面
+			"style": {
+
+			}
+		},
+
+
+		//登录、注册、忘记密码
+		{
+			"path": "pages/login/login",
+			"style": {}
+		},
+		{
+			"path": "pages/login/forget",
+			"style": {}
+		},
+		{
+			"path": "pages/login/register",
+			"style": {
+
+			}
+		},
+		{
+			"path": "pages/myself/forget-pwd/forget-pwd",
+			"style": {
+				"navigationBarTitleText": "重置密码"
+			}
+		}, {
+			"path": "pages/myself/about/about",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+
+			}
+		},
+		{
+			"path": "pages/bookcase/bookinfo/bookinfo",
+			"style": {
+
+			}
+		},
+		
+		{
+			"path": "pages/index/carousel/bookinfo", //轮播图跳转过来的图书详情页
+			"style": {
+
+			}
+
+		},
+		{
+			"path":"pages/bookcase/read",   //由书架页所跳转的阅读页
+			"style": {
+				
+			}
+		},
+		{
+			"path":"pages/index/carousel/read",   //由轮播跳转到书籍详情页再跳转的阅读页
+			"style": {
+				
+			}
+		},
+
+		{
+			"path": "pages/index/test",
+			"style": {
+				"navigationBarTitleText": "测试页",
+				"navigationBarBackgroundColor": "#F6F8FA"
+
+			}
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#66BD88"
+	},
+	"tabBar": {
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/icon/shouye1.png",
+				"selectedIconPath": "static/icon/shouye2.png"
+			},
+			{
+				"text": "书架",
+				"pagePath": "pages/bookcase/bookcase",
+				"iconPath": "static/icon/bookcase1.png",
+				"selectedIconPath": "static/icon/bookcase2.png"
+			},
+			{
+				"text": "扫描",
+				"pagePath": "pages/scan/scan",
+				"iconPath": "static/icon/saomiao1.png",
+				"selectedIconPath": "static/icon/saomiao2.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/myself/myself",
+				"iconPath": "static/icon/myself1.png",
+				"selectedIconPath": "static/icon/myself2.png"
+			}
+		]
+	}
+}

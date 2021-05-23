@@ -1,0 +1,10 @@
+{
+  "id": "QuShe-baiduYY",
+  "name": "百度语音合成接口",
+  "version": "4.1",
+  "description": "非常轻便的语音合成接口，可以用于语音播报",
+  "keywords": [
+    "语音合成",
+    "语音播报"
+  ]
+}
